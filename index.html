@@ -5,16 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-	<main>
-
+	<main class="calculator-grid">
 		<div class="output">
 			<div data-previous class="previous"></div>
 			<div data-current class="current"></div>
 		</div>
-		<button data-all-clear>AC</button>
+		<button data-all-clear class="span-two">AC</button>
 		<button data-delete>DEL</button>
 		<button data-operator>÷</button>
 		<button data-number>7</button>
@@ -31,8 +30,7 @@
 		<button data-operator>-</button>
 		<button data-number>0</button>
 		<button data-number>.</button>
-		<button data-equals>=</button>
-
+		<button data-equals class="span-two">=</button>
 	</main>
 </body>
 </html>
