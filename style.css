@@ -18,7 +18,7 @@ html {
 	display: grid;
 	gap: 0.5rem;
 	grid-template-columns: repeat(4, 80px);
-	grid-template-rows: minmax(120px, auto) repeat(5, 80px);
+	grid-template-rows: minmax(140px, auto) repeat(5, 80px);
 	justify-content: center;
 	align-content: center;
 	min-height: 100vh;
@@ -46,7 +46,6 @@ html {
 
 		.current {
 			font-size: 2rem;
-			margin-top: 1rem;
 		}
 
 	.span-two {
