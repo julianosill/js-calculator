@@ -92,3 +92,5 @@ class Calculator {
 		this.operator != null ? this.previousTextElement.innerText = `${this.getDisplayNumber(this.previousNumber)} ${this.operator}` : this.previousTextElement.innerText = this.previousNumber;
 	}
 };
+
+const calculator = new Calculator(previousTextElement, currentTextElement);
