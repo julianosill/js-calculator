@@ -107,9 +107,11 @@ class Calculator {
 		}
 	}
 
-	// Update the number in the display each time a button is clicked
+	// Updates the number in the display each time a button is clicked
 	updateDisplay() {
+		// Runs the getDisplayNumber() and updates the currentTextElement accordingly (example: 1000 changes to 1,000)
 		this.currentTextElement.innerText = this.getDisplayNumber(this.currentNumber);
+		// If an operator is chosen after a number, passes this number to previousNumber with the chosen operator after it (example: 13 *)
 		this.operator != null ? this.previousTextElement.innerText = `${this.getDisplayNumber(this.previousNumber)} ${this.operator}` : this.previousTextElement.innerText = this.previousNumber;
 	}
 };
